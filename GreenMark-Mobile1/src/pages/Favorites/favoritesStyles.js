@@ -1,0 +1,91 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#66CDAA',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  containerLogo: {
+    flex: 1,
+    backgroundColor: '#66CDAA',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: 250,
+  },
+  textVazio: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 12,
+    color: '#351c2f',
+    marginTop: 16,
+  },
+  productContainer: {
+    height: 260,
+    width: 230,
+    borderWidth: 5,
+    borderColor: 'rgb(194, 193, 193)',
+    borderRadius: 10,
+    overflow: 'hidden',
+    backgroundColor: 'white',
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    marginVertical: 50,
+  },
+  imagemProduto: {
+    width: 100,
+    height: 100,
+  },
+  containerBar: {
+    flex:1,
+    position: 'absolute', 
+    bottom: 0, 
+    width: '100%', 
+    height: 98,
+    backgroundColor: '#20B2AA',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    flexDirection: 'row',
+    padding: 10,
+  },
+  button: {
+    marginHorizontal: 100,
+  },
+  textTotal: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 12,
+    color: 'black',
+    marginTop: 5,
+  },
+  buttonComprar: {
+    width: 100,
+    marginTop: 10,
+    backgroundColor: '#008080',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  textButtonComprar: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  textButtonFavorite: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  iconFavorite: {
+    fontSize: 30,
+    color: 'red',
+    marginTop: 16,
+  },
+  logo: {
+    width: 200,
+    height: 200,
+    marginTop: 16,
+  },
+});
